@@ -1,1 +1,47 @@
 /* add your CSS here */
+body {
+	font-family: 'Times New Roman', sans-serif;
+}
+h3 {
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+/* Italicized Text for the Interesting Fact */
+.interestingFact {
+	font-style: italic;
+}
+/* No dots for the animal's list items */
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+/* borders */
+.border_thin {
+	border: 1px solid #cccccc;
+}
+/* bolded labels for animals list items */
+ul span {
+	font-weight: bold;
+}
+/* source text, smaller */
+p span {
+	font-size: 12px;
+}
+/* spacing for the animal data */
+.animalData {
+	padding: 0px 10px 0px 10px;
+}
+/* overall border */
+.theCard {
+	box-shadow: 7px 7px 7px #dddddd;
+	padding: 15px;
+	width: 300px;
+	font-size: 16px;
+}
+/* Image Source */
+.linkImage {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 2px;
+}
